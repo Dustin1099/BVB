@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker-Meldung</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 20%;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .btn {
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            alert("Achtung! Ihr Gerät wurde gehackt! Ihre Daten sind nun gefährdet!");
+        }, 500);
+    </script>
+</head>
+<body>
+    <h1>Warnung: Sie wurden gehackt!</h1>
+    <p>Alle Ihre persönlichen Daten sind jetzt kompromittiert!</p>
+    <button class="btn" onclick="window.location.reload();">Schließen</button>
+</body>
+</html>
